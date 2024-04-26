@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slick Slider</title>
     <script src="https://cdn.tailwindcss.com"></script>
-<!-- jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<!-- slick slider -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- slick cdn -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+
 
 </head>
+
 <body>
-    
-    
-    <div class="container mx-auto my-10  flex flex-row items-center overflow-hidden w-[800px] h-[400px]">
-        <img src="./images/slide-1.jpg" alt="">
-        <img src="./images/slide-2.jpg" alt="">
-        <img src="./images/slide-3.jpeg" alt="">
-        <img src="./images/slide-4.jpg" alt="">
-        <img src="./images/slide5.jpeg" alt="">
-    </div>
 
+     <div class="flex flex-row justify-center items-center gap-5 ">
+                    <button class="backbutton flex flex-row justify-center items-center h-10 w-10 text-3xl font-bold text-white bg-slate-700 rounded-full "> < </button>
+                    <div class="container mx-auto my-10  flex flex-row items-center overflow-hidden w-[800px] h-[400px]">
+                        <img src="./images/slide-1.jpg" alt="">
+                        <img src="./images/slide-2.jpg" alt="">
+                        <img src="./images/slide-3.jpeg" alt="">
+                        <img src="./images/slide-4.jpg" alt="">
+                        <img src="./images/slide5.jpeg" alt="">
+                    </div>
+                    <button class="nextbutton flex flex-row justify-center items-center h-10 w-10 text-3xl font-bold text-white bg-slate-700 rounded-full "> > </button>
 
+     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <!-- slick js -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./script.js"></script>
+            <!-- slick js -->
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script src="./script.js"></script>
 
 </body>
+
 </html>
