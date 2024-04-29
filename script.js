@@ -25,9 +25,9 @@ $(document).ready(function(){
   //   fade: false,
   //   cssEase: 'linear',
   //   // arrows
-  //   arrows :true,
-  //   prevArrow: ".backbutton",
-  //   nextArrow: ".nextbutton",
+    arrows :true,
+    prevArrow: ".backbutton",
+    nextArrow: ".nextbutton",
   //   // drag by mouse
   //   draggable: true,
   //   // focusOnSelect
